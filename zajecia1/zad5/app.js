@@ -7,7 +7,7 @@ function requestListener(request, response){
     response.setHeader("Content-type", "text/html");
     response.write("<html>");
     response.write("<head><title>About students</title></head>");
-    response.write(`<body><h1>My name is ${student.getStudentFullName()}. My student ID is ${student.getStudentId()}</h1>`);
+    response.write(`<body><p>My name is ${student.getStudentFullName()}. My student ID is ${student.getStudentId()}</p>`);
     response.write("</body>");
     response.write("</html>");
     response.end();

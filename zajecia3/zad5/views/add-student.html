@@ -1,0 +1,24 @@
+<html>
+      <head>
+        <title>ADD-STUDENT</title>
+        <link rel="stylesheet" href="/styles.css">
+      </head>
+      <body>
+        <p>ADD-STUDENT</p>
+        <include src="./public/pasek.html"></include>
+        <form action="/student" method="POST">
+        <div>
+          <label for="name">Imię:</label>
+          <input type="text" name="name">
+        </div>
+        <div>
+          <label for="lastname">Nazwisko:</label>
+          <input type="text" name="lastname">
+        </div>
+        <div>
+          <label for="studyField">Kierunek:</label>
+          <input type="text" name="studyField">
+        </div>
+        <button type="submit">Wyślij</button>
+      </body>
+</html>

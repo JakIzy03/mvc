@@ -1,0 +1,24 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pasek {
+    background-color: #f0f0f0;
+  }
+  
+  .pasek ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  
+  .pasek li {
+    margin-right: 20px;
+  }
+  
+  .pasek-link {
+    color: blue;
+    text-decoration: none;
+  }

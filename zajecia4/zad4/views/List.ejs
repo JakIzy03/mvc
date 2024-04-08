@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include partials/head %>
+</head>
+<body>
+    <%- include('partials/navigation') %>
+    <h1><%= pageTitle %></h1>
+    <ul>
+        <% students.forEach(student => { %>
+            <li>
+                <p><%= student.fullName %></p>
+                <p><%= student.code %></p>
+                <p><%= student.fieldOfStudies %></p>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>
